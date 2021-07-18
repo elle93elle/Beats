@@ -1,0 +1,42 @@
+.hero {
+    background-color: #F5F5F5;
+    height: 100vh;
+    min-height: 650px;
+    color: $black;
+    position: relative;
+    &:after {
+        bottom: -27px;
+        right: 10%;
+        content: url("../../img/Rectangle\ 14.png");
+        position: absolute
+       
+    }
+}
+
+.hero__container {
+    display: flex;
+    flex-direction: column;
+   justify-content: space-between;
+   height: 100%;
+   padding-top: 24px;
+   padding-bottom: 66px;
+   background: url('../../img/Ellipse\ 5.png') right center/ 50% no-repeat;
+}
+
+.hero__title-section {
+    width: 36%;
+}
+
+.hero__main-title {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.1;
+    margin-bottom: 22px;
+    text-transform: uppercase;
+}
+
+.hero__title-description {
+    font-size: 21px;
+    margin-bottom: 36px;
+   
+}

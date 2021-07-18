@@ -1,0 +1,28 @@
+.btn {
+    background: $red;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 18px 41px;
+    text-transform: uppercase;
+    line-height: 1;
+    border-radius: 100px;
+    text-decoration: none;
+    color: $white;
+    border:none;
+
+
+    &:hover {
+        background: #b31931;
+    }
+
+    
+    &--transparent{
+        background: none;
+        text-transform: none;
+
+        &:hover {
+            color:$red;
+            background: none;
+        }
+    }
+}

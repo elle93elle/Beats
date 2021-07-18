@@ -1,0 +1,35 @@
+.benefit {
+    text-align: center;
+}
+
+.benefit__image-wrapper {
+    display: inline-block;
+    width: 128px;
+    height: 128px;
+    position: relative;
+    border-radius: 50%;
+    background: #F2F5F4;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.benefit__icon {
+    position: absolute;
+    width: 55px;
+    height: 60px;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+.benefit__icon-battery {
+    height: 60px;
+    width: 32px;
+}
+
+.benefit__title {
+    font-size: 24px;
+    font-weight: 700;
+    color: $black;
+    margin-bottom: 4px;
+}
