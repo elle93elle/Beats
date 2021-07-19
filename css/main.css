@@ -84,7 +84,7 @@ img {
 .hero:after {
   bottom: -27px;
   right: 10%;
-  content: url("../../img/Rectangle 14.png");
+  content: url("../../img/rectangle.png");
   position: absolute;
 }
 
@@ -102,7 +102,7 @@ img {
   height: 100%;
   padding-top: 24px;
   padding-bottom: 66px;
-  background: url("../../img/Ellipse 5.png") right center/50% no-repeat;
+  background: url("../../img/circle.png") right center/50% no-repeat;
 }
 
 .hero__title-section {
@@ -289,7 +289,7 @@ img {
   padding-left: 0;
 }
 .benefits__item:before {
-  content: url("../../img/Combined shape 2204.png ");
+  content: url("../../img/benefitListShape.png");
   position: absolute;
   top: 55px;
   right: 0;
@@ -301,25 +301,31 @@ img {
   text-align: center;
 }
 
+.benefit__image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .benefit__image-wrapper {
-  display: inline-block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 128px;
   height: 128px;
-  position: relative;
   border-radius: 50%;
   background: #F2F5F4;
   overflow: hidden;
   margin-bottom: 10px;
-}
-
-.benefit__icon {
-  position: absolute;
-  width: 55px;
-  height: 60px;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
 }
 
 .benefit__icon-battery {
@@ -454,13 +460,13 @@ img {
 }
 .reviews-section:before {
   position: absolute;
-  content: url("../../img/Ellipse 7.png");
+  content: url("../../img/circle.png");
   bottom: -25px;
   left: 4%;
 }
 
 .order-section {
-  background: url("../../img/4430b7c5c5f2bc6a5b367211b5907e94.png") 100%/cover no-repeat;
+  background: #181818;
   color: white;
 }
 

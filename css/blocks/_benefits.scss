@@ -1,6 +1,5 @@
 .benefits {
     display: flex;
-
 }
 
 .benefits__item {
@@ -21,7 +20,7 @@
     }
 
     &:before{
-        content:url("../../img/Combined\ shape\ 2204.png ");
+        content:url("../../img/benefitListShape.png");
         position: absolute;
         top: 55px;
         right: 0;

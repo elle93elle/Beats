@@ -7,7 +7,7 @@
     &:after {
         bottom: -27px;
         right: 10%;
-        content: url("../../img/Rectangle\ 14.png");
+        content: url("../../img/rectangle.png");
         position: absolute
        
     }
@@ -20,7 +20,7 @@
    height: 100%;
    padding-top: 24px;
    padding-bottom: 66px;
-   background: url('../../img/Ellipse\ 5.png') right center/ 50% no-repeat;
+   background: url('../../img/circle.png') right center/ 50% no-repeat;
 }
 
 .hero__title-section {
@@ -38,5 +38,5 @@
 .hero__title-description {
     font-size: 21px;
     margin-bottom: 36px;
-   
+
 }
