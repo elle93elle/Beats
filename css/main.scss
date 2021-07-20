@@ -1,28 +1,28 @@
-@import "layout/vars";
+@import "./blocks/vars";
 
 $z-fixed-menu: 100;
 
 //normalize
-@import "layout/normalize.css";
+@import "./blocks/normalize.css";
 
 //fonts
 @import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
 
-@import "layout/base";
-@import "blocks/hero";
-@import "blocks/header";
-@import "blocks/features";
-@import "blocks/feature";
-@import "blocks/btn";
-@import "blocks/section";
-@import "blocks/headline";
-@import "blocks/benefits";
-@import "blocks/benefit";
-@import "blocks/benefits-section";
-@import "blocks/reviews";
-@import "blocks/interactive-avatar";
-@import "blocks/reviews-section";
-@import "blocks/order-section";
-@import "blocks/form";
-@import "blocks/radio";
-@import "blocks/fixed-menu";
+@import "./blocks/base";
+@import "./blocks/hero";
+@import "./blocks/header";
+@import "./blocks/features";
+@import "./blocks/feature";
+@import "./blocks/btn";
+@import "./blocks/section";
+@import "./blocks/headline";
+@import "./blocks/benefits";
+@import "./blocks/benefit";
+@import "./blocks/benefits-section";
+@import "./blocks/reviews";
+@import "./blocks/interactive-avatar";
+@import "./blocks/reviews-section";
+@import "./blocks/order-section";
+@import "./blocks/form";
+@import "./blocks/radio";
+@import "./blocks/fixed-menu";

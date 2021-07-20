@@ -20,7 +20,11 @@
    height: 100%;
    padding-top: 24px;
    padding-bottom: 66px;
-   background: url('../../img/circle.png') right center/ 50% no-repeat;
+}
+
+.hero__title-wrapper {
+display: flex;
+
 }
 
 .hero__title-section {
@@ -40,3 +44,4 @@
     margin-bottom: 36px;
 
 }
+

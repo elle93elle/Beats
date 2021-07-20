@@ -1,4 +1,4 @@
-@import "layout/normalize.css";
+@import "./blocks/normalize.css";
 @import url("https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap");
 html, body {
   height: 100%;
@@ -102,7 +102,12 @@ img {
   height: 100%;
   padding-top: 24px;
   padding-bottom: 66px;
-  background: url("../../img/circle.png") right center/50% no-repeat;
+}
+
+.hero__title-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .hero__title-section {
