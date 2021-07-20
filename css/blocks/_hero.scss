@@ -7,7 +7,7 @@
     &:after {
         bottom: -27px;
         right: 10%;
-        content: url("../../img/rectangle.png");
+        content: url("../img/rectangle.png");
         position: absolute
        
     }
@@ -22,9 +22,15 @@
    padding-bottom: 66px;
 }
 
-.hero__title-wrapper {
-display: flex;
-justify-content: space-between;
+.hero__content-wrapper {
+    display: flex;
+}
+
+.hero__column {
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .hero__title-section {
