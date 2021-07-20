@@ -196,6 +196,9 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .features__item {
@@ -215,7 +218,7 @@ img {
 }
 
 .feature__icon {
-  width: 42px;
+  width: 48px;
   margin-right: 12px;
 }
 
@@ -488,7 +491,7 @@ img {
 }
 
 .order-section {
-  background: url("../img/BackgroundOrder.png") center bottom no-repeat;
+  background: url("../img/BackgroundOrder.png") 0 0/100% 100% no-repeat;
   color: white;
 }
 
