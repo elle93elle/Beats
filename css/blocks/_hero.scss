@@ -9,22 +9,15 @@
         right: 10%;
         content: url("../img/rectangle.png");
         position: absolute
-       
     }
 }
 
 .hero__container {
     display: flex;
-    flex-direction: column;
-   height: 100%;
-   padding-top: 24px;
-   padding-bottom: 66px;
+align-items: center;  
 }
 
-.hero__inner-wrapper {
-    display: flex;
-    align-items: center;
-}
+
 
 .hero__content {
 display: flex;
@@ -49,5 +42,9 @@ justify-content: space-between;
     font-size: 21px;
     margin-bottom: 36px;
 
+}
+
+.hero__img {
+    margin-left: -40px;
 }
 

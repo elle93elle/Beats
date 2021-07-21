@@ -1,11 +1,20 @@
 .header {
+    position: absolute;
+    top: 0;
+    width:100%;
+    padding-top: 24px;
+    padding-bottom: 24px;    
+}
+
+.header__container {
     display: flex;
     align-items: center;
     justify-content: space-between;
     color: $black;
-    font-size: 18px;
-    margin-bottom: 59px;
+    font-size: 18px;   
 }
+
+
 
 .menu__list {
     display: flex;
