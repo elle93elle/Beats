@@ -12,7 +12,7 @@
         .radio__visible{
             border-radius: 3px;
 
-            &::before{
+            &:before{
                 background: url(../img/tick.png) center center no-repeat;
             }
         }
@@ -23,7 +23,7 @@
     display: none;
 
     &:checked ~ .radio__visible {
-        &::before{
+        &:before{
             display: block;
         }
     }
