@@ -4,6 +4,7 @@
     min-height: 650px;
     color: $black;
     position: relative;
+    
     &:after {
         bottom: -27px;
         right: 10%;
@@ -13,11 +14,11 @@
 }
 
 .hero__container {
-    display: flex;
-align-items: center;  
+display: flex;
+align-items: center;
+
+height: 100%;
 }
-
-
 
 .hero__content {
 display: flex;
