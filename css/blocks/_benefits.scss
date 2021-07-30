@@ -22,7 +22,7 @@
     &:before{
         content:url("../../img/benefitListShape.png");
         position: absolute;
-        top: 55px;
+        top: rem(55px);
         right: 0;
         transform: translate(50%);
     }

@@ -2,7 +2,7 @@
     display: flex;
     cursor: pointer;
     user-select: none;
-    margin-right: 17px;
+    margin-right: rem(17px);
 
     &:last-child{
         margin-right: 0;
@@ -10,7 +10,7 @@
 
     &--checkbox{
         .radio__visible{
-            border-radius: 3px;
+            border-radius: rem(3px);
 
             &:before{
                 background: url(../img/tick.png) center center no-repeat;
@@ -31,18 +31,18 @@
 }
 
 .radio__visible {
-    width: 25px;
-    height: 25px;
+    width: rem(25px);
+    height: rem(25px);
     position: relative;
     border-radius: 50%;
     background: white;
-    margin-right: 9px;
+    margin-right: rem(9px);
    
 
     &:before{
     content: "";
-       width: 13px;
-       height: 13px;
+       width: rem(13px);
+       height: rem(13px);
        background: $red;
        border-radius: 50%;
        position: absolute;

@@ -1,9 +1,20 @@
-html, body {
+html {
+    font-size: $baseFontSize;
+    @include tablets {
+        font-size: $baseFontSize - 1px;
+    }
+
+    @include phones {
+        font-size: $baseFontSize - 2px;
+    }
+}
+
+body {
     height: 100%;
 }
 
 body {
-    font-size: $baseFontSize;
+    
     font-family: 'Play', Helvetiva, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothung: grayscale;
@@ -15,12 +26,12 @@ body {
 .wrapper {
     overflow: hidden;
     width: 100%;
-    min-width: $containerWidth+20px;
     min-height: 100%;
 }
 
 .container {
-    width: $containerWidth;
+    width: 95%;
+    max-width: $containerWidth;
     margin: 0 auto;
 }
 
