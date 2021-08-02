@@ -183,6 +183,7 @@ img {
 @media screen and (max-width: 768px) {
   .hero__main-title {
     padding: 0 4.6875rem;
+    margin-bottom: 0.6875rem;
   }
 }
 
@@ -192,7 +193,8 @@ img {
 }
 @media screen and (max-width: 768px) {
   .hero__title-description {
-    padding: 0 9.75rem;
+    padding: 0 26%;
+    margin-bottom: 1.3125rem;
   }
 }
 @media screen and (max-width: 480px) {
