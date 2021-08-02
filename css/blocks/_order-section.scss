@@ -2,6 +2,12 @@
 background:  url("../img/BackgroundOrder.png") 0 0/ 100% 100% no-repeat;
 color: white;
 
+@include tablets {
+    background:  url("../img/BackgroundOrder.png") 50%/ cover no-repeat;
+}
+@include phones {
+    background:  url("../img/BackgroundOrder.png") 50%/ cover no-repeat;
+}
 
 }
 
