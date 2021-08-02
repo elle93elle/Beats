@@ -843,6 +843,16 @@ img {
   right: 3%;
   z-index: 100;
 }
+@media screen and (max-width: 768px) {
+  .fixed-menu {
+    display: none;
+  }
+}
+@media screen and (max-width: 480px) {
+  .fixed-menu {
+    display: none;
+  }
+}
 
 .fixed-menu__item {
   margin-bottom: 0.3125rem;
@@ -874,6 +884,10 @@ img {
 }
 
 .hamburger {
+  position: fixed;
+  top: 4%;
+  right: 5%;
+  z-index: 100;
   width: 26px;
   height: 20px;
   -webkit-box-orient: vertical;

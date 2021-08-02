@@ -1,9 +1,13 @@
-.hamburger {
-    width: 26px;
-    height: 20px;
-    flex-direction: column;
-    justify-content: space-between;
-    display: none;
+.hamburger {    
+position: fixed;
+ top: 4%;
+ right: 5%;
+ z-index: $z-fixed-menu;
+ width: 26px;
+ height: 20px;
+ flex-direction: column;
+ justify-content: space-between;
+ display: none;
 
     @include tablets {
         display: inline-flex;
