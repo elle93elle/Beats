@@ -1,11 +1,21 @@
 .benefit {
     text-align: center;
+
+    @include phones {
+        display: flex;
+        text-align: left;
+    }
 }
 
 
 .benefit__image {
     display: flex;
     justify-content: center;
+
+    @include phones {
+        margin-right: 3%;
+    }
+
 }
 
 .benefit__image-wrapper {

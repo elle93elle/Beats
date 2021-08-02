@@ -1,5 +1,9 @@
 .benefits {
     display: flex;
+
+    @include phones {
+        flex-direction: column;
+    }
 }
 
 .benefits__item {
@@ -25,5 +29,13 @@
         top: rem(55px);
         right: 0;
         transform: translate(50%);
+
+        @include phones {
+            display: none;
+        }
+    }
+
+    @include phones {
+        padding: 0;
     }
 }
