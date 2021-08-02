@@ -887,7 +887,7 @@ img {
   position: fixed;
   top: 4%;
   right: 5%;
-  z-index: 100;
+  z-index: 110;
   width: 26px;
   height: 20px;
   -webkit-box-orient: vertical;
