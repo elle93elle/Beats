@@ -12,6 +12,10 @@ position: fixed;
     @include tablets {
         display: inline-flex;
     }
+
+    @include phones {
+        display: inline-flex;
+    }
 }
 
 
