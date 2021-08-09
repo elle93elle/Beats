@@ -5,21 +5,44 @@
 .slider-container {
     display: flex;
     align-items: center;
+
+    
 }
 
 .slider__content{
     display: flex;
     align-items: center;
+   
 }
 
 .slider__image {
     margin-right: rem(59px);
+    margin-left: rem(33px);
+
+    @include tablets {
+        display: flex;
+        flex:1;
+    }
+}
+
+.slider__menu {
+    margin-bottom: rem(25px);
 }
 
 .slider__information {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+.slider__headline {
+margin-bottom: rem(20px);
+
+@include tablets {
+    width: 100%;
+}
 }
 
 .slider__headline-title {
@@ -28,6 +51,7 @@
     font-weight: 700;
     line-height: 1.1;
     color: $black;
+    margin-bottom: rem(24px);
 }
 
 

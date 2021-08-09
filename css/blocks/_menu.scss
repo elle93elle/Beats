@@ -29,14 +29,17 @@
 }
 
 
-.menu--vertical .menu__list {
+
+.menu--full__list {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 50%;
 }
 
-.menu--vertical .menu__link {
+.menu--full__link {
     font-size: rem(36px);
-    color: white;
+    color: white;  
+    text-decoration: none;
 }

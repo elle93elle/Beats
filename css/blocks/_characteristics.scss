@@ -5,10 +5,11 @@
 
 .characteristics__list {
     display: flex;
+    margin-bottom: rem(24px);
 }
 
 .characteristics__item {
-    width: rem(148px);
+    width: rem(163px);
     height: rem(60px);
     display: flex;
     flex-direction: column;
