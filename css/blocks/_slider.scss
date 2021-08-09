@@ -1,0 +1,34 @@
+.slider-section {
+    background-color:  #F8FAF9;
+}
+
+.slider-container {
+    display: flex;
+    align-items: center;
+}
+
+.slider__content{
+    display: flex;
+    align-items: center;
+}
+
+.slider__image {
+    margin-right: rem(59px);
+}
+
+.slider__information {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.slider__headline-title {
+    text-transform: uppercase;
+    font-size: rem(36px);
+    font-weight: 700;
+    line-height: 1.1;
+    color: $black;
+}
+
+
+

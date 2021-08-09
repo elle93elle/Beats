@@ -24,7 +24,7 @@
     }
 
     &:before{
-        content:url("../../img/benefitListShape.png");
+        content:url("../img/benefitListShape.png");
         position: absolute;
         top: rem(55px);
         right: 0;
@@ -33,7 +33,7 @@
         @include tablets {
             display: none;
         }
-        
+
         @include phones {
             display: none;
         }

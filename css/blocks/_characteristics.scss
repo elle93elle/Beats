@@ -1,0 +1,32 @@
+.characteristics {
+    display: flex;
+    flex-direction: column;
+}
+
+.characteristics__list {
+    display: flex;
+}
+
+.characteristics__item {
+    width: rem(148px);
+    height: rem(60px);
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   margin-right: rem(13px);
+
+   &:last-child {
+       margin-right: 0;
+   }
+}
+
+.characteristics__desc {
+font-size: rem(18px);
+font-weight: 700;
+color: $black;
+}
+
+.price {
+    font-size: rem(36px);
+    color: $black;
+}

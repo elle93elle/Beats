@@ -1,0 +1,42 @@
+.menu {
+    margin: 0 10px;
+    padding-top: 5px;
+
+    @include tablets{
+        display: none;
+    }
+    
+}
+
+.menu__list {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.menu__item {
+    margin-right: rem(27px);
+  &:last-child {
+      margin-right: 0;
+  }
+  margin-bottom: 10px;
+}
+
+.menu__link {
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+
+.menu--vertical .menu__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu--vertical .menu__link {
+    font-size: rem(36px);
+    color: white;
+}
