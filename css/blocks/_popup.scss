@@ -1,0 +1,30 @@
+.popup-menu {
+    position: absolute;
+    width: rem(273px);
+    height: rem(294px);
+    background: #fff;
+    opacity: 0.8;
+    border-radius: rem(4px);
+    left:100%;
+    top: 0;   
+    color: #000;
+    padding: rem(28px) rem(25px);
+}
+
+.popup-menu__list {
+    display: flex;
+    flex-direction: column;
+}
+
+.popup-menu__item {
+    display: flex;
+    align-items: center;
+}
+
+.popup-menu__icon {
+    width: rem(24px);
+}
+
+.popup-menu__quality {
+    flex:1;
+}

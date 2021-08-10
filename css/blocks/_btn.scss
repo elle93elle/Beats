@@ -33,10 +33,14 @@
     background:  #9A9A9A;
     border-radius: rem(4px);
     display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative; 
 }
 
-.btn-menu__wrapper {
+.btn-menu__wrapper{
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
