@@ -2,9 +2,13 @@
     background-color:  #F8FAF9;
 }
 
-.slider {
-    width: 100%;
+
+.slider-container {
     position: relative;
+}
+
+.slider__arrows{
+width: 100%;
 }
 
 .slider__arrow {
@@ -14,35 +18,100 @@
 
 .slider__arrow--prev {
     position: absolute;
-    left: 0;
+    right: 100%;
+
+    @include tablets {
+        top: 10%;
+        left: 23%;
+    }
+
+    @include phones {
+        left:0;
+        top: 7%;
+    }
 }
 
 .slider__arrow--next {
 position: absolute;
-    right: 0;
+    left: 100%;
+
+    @include tablets {
+        left: 74%;
+        top: 10%;
+    }
+
+    @include phones {
+        left:99%;
+        top: 7%;
+    }
 }
+
 
 .slider__content{
     display: flex;
     align-items: center;
     width: 100%;
+
+    @include tablets {
+        width: 100%;
+        flex:1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
    
 }
 
 .slider__image {
-    margin-right: rem(59px);
+    margin-right: rem(57px);
     margin-left: rem(33px);
+    
+    @include tablets {
+        width: 42%;  
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: rem(49px);
+    }
 }
+
+
 
 .slider__menu {
     margin-bottom: rem(25px);
-
     display: flex;
+    @include tablets {
+        display: none;
+    }
 }
+
+.slider__btn-menu {
+    width: rem(91px);
+    height: rem(91px);
+    background:  #9A9A9A;
+    border-radius: rem(4px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative; 
+
+    &:hover .popup-menu {
+        opacity: 0.8;
+        pointer-events: visible;
+    }
+}
+
+.slider__btn-menu-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 
 .slider__information {
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
 }
 
 .slider__headline {
@@ -57,6 +126,18 @@ margin-bottom: rem(20px);
     line-height: 1.1;
     color: $black;
     margin-bottom: rem(24px);
+
+    @include tablets {
+        font-size: rem(28px);
+     }
+}
+
+.slider__headline-subtitle
+ {
+    @include tablets {
+        padding-left: rem(80px);
+        padding-right: rem(80px);
+    }
 }
 
 

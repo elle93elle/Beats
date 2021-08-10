@@ -1,6 +1,10 @@
 .characteristics {
     display: flex;
     flex-direction: column;
+
+    @include tablets {
+        align-items: center;
+    }
 }
 
 .characteristics__list {
