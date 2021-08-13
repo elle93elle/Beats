@@ -36,25 +36,6 @@
     position: relative;
 }
 
-.team__title p {
-    margin-right: rem(5px);
-}
-
-.team-arrow {
-    position: absolute;
-    right: 0;
-    height: rem(10px);
-    width: rem(10px);
-}
-
-.team-arrow.transform {
-    transform: rotate(180deg);
-}
-
-
-
-
-
 .team--version--desktop .team__content {
     position: absolute;
     top: 100%;

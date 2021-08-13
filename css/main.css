@@ -1521,22 +1521,6 @@ img {
   position: relative;
 }
 
-.team__title p {
-  margin-right: 0.3125rem;
-}
-
-.team-arrow {
-  position: absolute;
-  right: 0;
-  height: 0.625rem;
-  width: 0.625rem;
-}
-
-.team-arrow.transform {
-  -webkit-transform: rotate(180deg);
-          transform: rotate(180deg);
-}
-
 .team--version--desktop .team__content {
   position: absolute;
   top: 100%;
