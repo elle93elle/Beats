@@ -3,7 +3,7 @@ const fullscreenMenu = document.querySelector(".fullscreen-menu");
 const close = document.querySelector(".fullscreen-menu__close");
 
 openBurger.addEventListener ("click", e => {
-    e.preventDefault();
+   e.preventDefault;
     fullscreenMenu.classList.add("open");
 });
 

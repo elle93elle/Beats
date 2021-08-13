@@ -71,6 +71,11 @@
             height: rem(82px);
         }
     }
+
+}
+
+.form__input.input-error {
+    border: 3px solid red;
 }
 
 .form__control{

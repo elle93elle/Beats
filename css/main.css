@@ -537,6 +537,26 @@ img {
   top: -3.8125rem;
 }
 
+.reviews__list {
+  position: relative;
+  min-height: 21.75rem;
+}
+
+.reviews__item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+}
+
+.reviews__item.active {
+  position: static;
+  opacity: 1;
+  pointer-events: unset;
+}
+
 .reviews__display-inner {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -635,6 +655,9 @@ img {
   border-radius: 50%;
 }
 .interactive-avatar--active {
+  border: 0.25rem solid #E01F3D;
+}
+.interactive-avatar:hover {
   border: 0.25rem solid #E01F3D;
 }
 
@@ -770,6 +793,10 @@ img {
   .form__input--textarea {
     height: 5.125rem;
   }
+}
+
+.form__input.input-error {
+  border: 3px solid red;
 }
 
 .form__control {
@@ -1081,7 +1108,7 @@ img {
 
 .slider__arrow {
   position: absolute;
-  top: 45%;
+  top: 30%;
 }
 
 .slider__arrow--prev {
@@ -1118,6 +1145,17 @@ img {
   }
 }
 
+.slider__contents {
+  width: 100%;
+}
+
+.bx-wrapper {
+  background: transparent;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border: 0;
+}
+
 .slider__content {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1151,7 +1189,7 @@ img {
 }
 
 .slider__image {
-  margin-right: 3.5625rem;
+  margin-right: 2.9375rem;
   margin-left: 2.0625rem;
 }
 @media screen and (max-width: 768px) {
@@ -1434,4 +1472,168 @@ img {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
+}
+
+.team {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media screen and (max-width: 480px) {
+  .team--version--desktop {
+    display: none;
+  }
+}
+
+.team__item {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  text-align: center;
+  margin-right: 1.25rem;
+  max-width: 13.75rem;
+  position: relative;
+}
+.team__item:last-child {
+  margin-right: 0;
+}
+
+.team__member {
+  height: 18.125rem;
+  margin-bottom: 1.5625rem;
+}
+
+.team__title {
+  color: #292929;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1.125rem;
+  font-weight: 700;
+  margin-bottom: 0.6875rem;
+  position: relative;
+}
+
+.team__title p {
+  margin-right: 0.3125rem;
+}
+
+.team-arrow {
+  position: absolute;
+  right: 0;
+  height: 0.625rem;
+  width: 0.625rem;
+}
+
+.team-arrow.transform {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.team--version--desktop .team__content {
+  position: absolute;
+  top: 100%;
+}
+
+.team__content {
+  overflow: hidden;
+  -webkit-transition: height 0.3s;
+  transition: height 0.3s;
+  height: 0;
+}
+
+.team__content-block {
+  padding-bottom: 0.3125rem;
+}
+
+.team__duty {
+  color: #292929;
+  text-align: center;
+}
+
+.team--version--mobile {
+  display: none;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+@media screen and (max-width: 480px) {
+  .team--version--mobile {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+.team--version--mobile .team__item {
+  margin-right: 0;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 11000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: none;
+  background: #313131;
+}
+
+.modal__container {
+  background: #fff;
+  padding: 2.3125rem 3.3125rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  max-width: 19.3125rem;
+  height: 11.875rem;
+  top: 35%;
+  left: 40%;
+}
+
+.modal__message {
+  text-align: center;
+  margin-bottom: 1.875rem;
+}
+
+.modal__content {
+  margin-bottom: 1.75rem;
+  color: #000;
+}
+
+.error-modal {
+  color: red;
+}
+
+.modal.openModal {
+  display: block;
 }

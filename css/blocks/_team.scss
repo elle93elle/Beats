@@ -1,0 +1,89 @@
+.team {
+    display: flex;
+    justify-content: space-between;
+}
+
+.team--version--desktop {
+    @include phones {
+        display: none;
+    }
+}
+
+.team__item {
+    flex:1;
+    text-align: center;
+    margin-right: rem(20px);
+    max-width: rem(220px);
+    position: relative;
+
+    &:last-child {
+        margin-right: 0;
+    }
+}
+
+.team__member {
+    height: rem(290px);
+    margin-bottom: rem(25px);
+}
+
+.team__title {
+    color: $black;
+    display: inline-flex;
+    align-items: center;
+    font-size: rem(18px);
+    font-weight: 700;
+    margin-bottom: rem(11px);
+    position: relative;
+}
+
+.team__title p {
+    margin-right: rem(5px);
+}
+
+.team-arrow {
+    position: absolute;
+    right: 0;
+    height: rem(10px);
+    width: rem(10px);
+}
+
+.team-arrow.transform {
+    transform: rotate(180deg);
+}
+
+
+
+
+
+.team--version--desktop .team__content {
+    position: absolute;
+    top: 100%;
+}
+
+.team__content {
+    overflow: hidden;
+    transition: height .3s;
+    height: 0;
+}
+
+.team__content-block {
+    padding-bottom: rem(5px);
+}
+
+.team__duty {
+    color: $black;
+    text-align: center;
+}
+
+.team--version--mobile {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    @include phones {
+        display: flex;
+    }
+}
+
+.team--version--mobile .team__item {
+    margin-right: 0;
+}

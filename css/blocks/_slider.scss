@@ -7,13 +7,15 @@
     position: relative;
 }
 
+
+
 .slider__arrows{
 width: 100%;
 }
 
 .slider__arrow {
     position: absolute;
-    top: 45%;
+    top: 30%;
 }
 
 .slider__arrow--prev {
@@ -46,6 +48,16 @@ position: absolute;
     }
 }
 
+.slider__contents {
+    width: 100%;
+    
+}
+
+.bx-wrapper {
+    background: transparent;
+    box-shadow: none;
+    border: 0;
+}
 
 .slider__content{
     display: flex;
@@ -65,7 +77,7 @@ position: absolute;
 }
 
 .slider__image {
-    margin-right: rem(57px);
+    margin-right: rem(47px);
     margin-left: rem(33px);
     
     @include tablets {
