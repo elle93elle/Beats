@@ -1115,34 +1115,10 @@ img {
   position: absolute;
   right: 100%;
 }
-@media screen and (max-width: 768px) {
-  .slider__arrow--prev {
-    top: 10%;
-    left: 23%;
-  }
-}
-@media screen and (max-width: 480px) {
-  .slider__arrow--prev {
-    left: 0;
-    top: 7%;
-  }
-}
 
 .slider__arrow--next {
   position: absolute;
   left: 100%;
-}
-@media screen and (max-width: 768px) {
-  .slider__arrow--next {
-    left: 74%;
-    top: 10%;
-  }
-}
-@media screen and (max-width: 480px) {
-  .slider__arrow--next {
-    left: 99%;
-    top: 7%;
-  }
 }
 
 .slider__contents {

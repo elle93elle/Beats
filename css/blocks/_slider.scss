@@ -21,36 +21,17 @@ width: 100%;
 .slider__arrow--prev {
     position: absolute;
     right: 100%;
-
-    @include tablets {
-        top: 10%;
-        left: 23%;
-    }
-
-    @include phones {
-        left:0;
-        top: 7%;
-    }
 }
 
 .slider__arrow--next {
 position: absolute;
     left: 100%;
 
-    @include tablets {
-        left: 74%;
-        top: 10%;
-    }
-
-    @include phones {
-        left:99%;
-        top: 7%;
-    }
+    
 }
 
 .slider__contents {
     width: 100%;
-    
 }
 
 .bx-wrapper {
