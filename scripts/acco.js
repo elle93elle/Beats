@@ -7,7 +7,6 @@ const reqHeight = textBlock.height();
 container.addClass("active");
 contentBlock.height(reqHeight);
 
-
 }
 
 const closeEveryItem = container => {
