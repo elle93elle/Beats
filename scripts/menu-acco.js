@@ -8,7 +8,7 @@ const openItem = item => {
     hiddenContent.width(reqWidth);
 }
 
-$('.products-menu__title').on("click", (e) => {
+$(".products-menu__title").click (e => {
 e.preventDefault();
 const $this = $(e.currentTarget);
 const item = $this.closest(".products-menu__item");

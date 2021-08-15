@@ -1097,9 +1097,16 @@ img {
   }
 }
 
-.map-section__img {
-  -o-object-fit: cover;
-     object-fit: cover;
+.map-section {
+  position: relative;
+}
+
+#map {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
 }
 
 .slider-section {
